@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/storage
+/public/phpmyadmin
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
+
+.starter.env
+/public/phpmyadmin
+docker-compose.override.yml
+
+# Laravel Mix artifacts
+/public/js
+/public/css
+/public/images
+/public/build
+/public/mix-manifest.json
