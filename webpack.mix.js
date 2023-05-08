@@ -1,6 +1,6 @@
 const { copyDirectory } = require('laravel-mix');
 const mix = require('laravel-mix');
-const domain = 'theworx.test' // <-- EDIT THIS;
+const domain = 'caraballo.test' // <-- EDIT THIS;
 const homedir = require('os').homedir();
 
 /*
@@ -18,6 +18,8 @@ mix.js('resources/js/app.js', 'public/js')
     .postCss('resources/css/app.css', 'public/css', [
         require('tailwindcss'),
     ])
+    .copyDirectory('resources/templates/caraballo/images', 'public/images')
+    .copyDirectory('resources/templates/caraballo/fonts', 'public/fonts')
     .copyDirectory('resources/templates/maintenance', 'public/maintenance')
     .browserSync({
       proxy: domain,

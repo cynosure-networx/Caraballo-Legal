@@ -33,13 +33,13 @@ resolve(\Illuminate\Routing\UrlGenerator::class)->forceScheme('https');
  * END: Injected from .gp/snippets/laravel/routes/web/allow-mixed-web.snippet
  */
 
-require __DIR__.'/jetstream.php';
+require __DIR__ . '/jetstream.php';
 
 /**
  * General Links
  */
 Route::get('/', function () {
-    return view('home');
+    return view('caraballo-home');
 })->name('home');
 
 Route::get('/welcome', function () {
@@ -48,7 +48,7 @@ Route::get('/welcome', function () {
 
 // CALENDAR
 // Route::get('calendar', [FullCalendarController::class, 'index']);
-Route::controller(FullCalendarController::class)->group(function(){
+Route::controller(FullCalendarController::class)->group(function () {
     Route::get('calendar', 'index')->name('calendar');
     Route::post('calendarAjax', 'ajax');
 });

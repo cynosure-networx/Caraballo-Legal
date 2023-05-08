@@ -1,6 +1,12 @@
 {
     "/js/app.js": "/js/app.js",
     "/css/app.css": "/css/app.css",
+    "/images/CATransparent.png": "/images/CATransparent.png",
+    "/images/CA_Logo_Transparent.png": "/images/CA_Logo_Transparent.png",
+    "/images/CaraballoLegalLogo.png": "/images/CaraballoLegalLogo.png",
+    "/fonts/Mignon-Regular.ttf.eot": "/fonts/Mignon-Regular.ttf.eot",
+    "/fonts/Mignon-Regular.ttf.svg": "/fonts/Mignon-Regular.ttf.svg",
+    "/fonts/Mignon-Regular.ttf.woff": "/fonts/Mignon-Regular.ttf.woff",
     "/maintenance/README.md": "/maintenance/README.md",
     "/maintenance/css/animate.css": "/maintenance/css/animate.css",
     "/maintenance/css/bootstrap.min.css": "/maintenance/css/bootstrap.min.css",
